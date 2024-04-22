@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d866c60429153ec43920e2f8699055cf, type: 3}
+  m_Name: Tundra
+  m_EditorClassIdentifier: 
+  tiles:
+  - name: water
+    block: {fileID: 612139127914936014, guid: 4148722f66917114192c5d3ac64d635f, type: 3}
+    min: 0
+    max: 0.2
+  - name: grass
+    block: {fileID: 6038721509718897671, guid: 97e97e98d23e23c408ea4b32198ef8e1, type: 3}
+    min: 0.2
+    max: 0.8
+  - name: mountain
+    block: {fileID: 6650069424474302272, guid: 6d2c7f8406e6233489c282e15fa02511, type: 3}
+    min: 0.8
+    max: 1
+  standartTile:
+    name: water
+    block: {fileID: 612139127914936014, guid: 4148722f66917114192c5d3ac64d635f, type: 3}
+    min: 0
+    max: 0.2
+  humidityMin: 0
+  humidityMax: 0.5
+  temperatureMin: 0.15
+  temperatureMax: 0.4
+  structuresPrefabs:
+  - {fileID: 2510974982766317166, guid: b4daf43700f417343bc66d84d0029731, type: 3}
